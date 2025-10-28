@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		201CAD502DC9AC9100C37BE1 /* stir_fry.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 201CAD4F2DC9AC9100C37BE1 /* stir_fry.usdz */; };
+		201CAD522DC9AD0500C37BE1 /* chicken_tacos.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 201CAD512DC9AD0500C37BE1 /* chicken_tacos.usdz */; };
+		201CAD542DC9AD7500C37BE1 /* spaghetti.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 201CAD532DC9AD7500C37BE1 /* spaghetti.usdz */; };
+		201CAD562DC9AE2700C37BE1 /* tomato_soup.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 201CAD552DC9AE2700C37BE1 /* tomato_soup.usdz */; };
+		201CAD582DC9AE7100C37BE1 /* smoothie.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 201CAD572DC9AE7100C37BE1 /* smoothie.usdz */; };
+		201CAD5A2DC9AEC800C37BE1 /* brownies.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 201CAD592DC9AEC800C37BE1 /* brownies.usdz */; };
+		208A94E92DC17DD4006BBD3B /* RecipeModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 208A94E72DC17DD4006BBD3B /* RecipeModel.xcdatamodeld */; };
+		208A94EB2DC17F79006BBD3B /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208A94EA2DC17F79006BBD3B /* CoreDataManager.swift */; };
+		208A94ED2DC182A0006BBD3B /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208A94EC2DC182A0006BBD3B /* FavoritesViewController.swift */; };
+		208A94EF2DC18525006BBD3B /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208A94EE2DC18525006BBD3B /* FavoriteTableViewCell.swift */; };
+		208A94F12DC1DE1F006BBD3B /* Dish3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208A94F02DC1DE1F006BBD3B /* Dish3DView.swift */; };
+		208A94F32DC1F31A006BBD3B /* Recipe3DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208A94F22DC1F31A006BBD3B /* Recipe3DViewController.swift */; };
+		208A94F52DC1F338006BBD3B /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208A94F42DC1F338006BBD3B /* RecipeDetailView.swift */; };
+		208A94F72DC1F35B006BBD3B /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208A94F62DC1F35B006BBD3B /* IngredientsView.swift */; };
+		208A951A2DC5A9B7006BBD3B /* pizza.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 208A95192DC5A189006BBD3B /* pizza.usdz */; };
+		208A951C2DC5AF0F006BBD3B /* salad.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 208A951B2DC5AF0F006BBD3B /* salad.usdz */; };
+		208A951E2DC5B004006BBD3B /* grilled_cheese.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 208A951D2DC5B004006BBD3B /* grilled_cheese.usdz */; };
+		208A95202DC5B05F006BBD3B /* pancakes.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 208A951F2DC5B05F006BBD3B /* pancakes.usdz */; };
+		EB87036C2DBEE3C5004A908C /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87036B2DBEE3C5004A908C /* DiscoverViewController.swift */; };
+		EB87036E2DBEE3E0004A908C /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87036D2DBEE3E0004A908C /* RecipeModel.swift */; };
+		EB8703702DBEF697004A908C /* IngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87036F2DBEF697004A908C /* IngredientsViewController.swift */; };
+		EBB40C952DC8A01E00BC03A2 /* RecipeDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB40C942DC8A01E00BC03A2 /* RecipeDataProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		201CAD4F2DC9AC9100C37BE1 /* stir_fry.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = stir_fry.usdz; sourceTree = "<group>"; };
+		201CAD512DC9AD0500C37BE1 /* chicken_tacos.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = chicken_tacos.usdz; sourceTree = "<group>"; };
+		201CAD532DC9AD7500C37BE1 /* spaghetti.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = spaghetti.usdz; sourceTree = "<group>"; };
+		201CAD552DC9AE2700C37BE1 /* tomato_soup.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = tomato_soup.usdz; sourceTree = "<group>"; };
+		201CAD572DC9AE7100C37BE1 /* smoothie.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = smoothie.usdz; sourceTree = "<group>"; };
+		201CAD592DC9AEC800C37BE1 /* brownies.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = brownies.usdz; sourceTree = "<group>"; };
+		208A94E82DC17DD4006BBD3B /* RecipeModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RecipeModel.xcdatamodel; sourceTree = "<group>"; };
+		208A94EA2DC17F79006BBD3B /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		208A94EC2DC182A0006BBD3B /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		208A94EE2DC18525006BBD3B /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		208A94F02DC1DE1F006BBD3B /* Dish3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish3DView.swift; sourceTree = SOURCE_ROOT; };
+		208A94F22DC1F31A006BBD3B /* Recipe3DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe3DViewController.swift; sourceTree = "<group>"; };
+		208A94F42DC1F338006BBD3B /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = SOURCE_ROOT; };
+		208A94F62DC1F35B006BBD3B /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = SOURCE_ROOT; };
+		208A95192DC5A189006BBD3B /* pizza.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = pizza.usdz; sourceTree = "<group>"; };
+		208A951B2DC5AF0F006BBD3B /* salad.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = salad.usdz; sourceTree = "<group>"; };
+		208A951D2DC5B004006BBD3B /* grilled_cheese.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = grilled_cheese.usdz; sourceTree = "<group>"; };
+		208A951F2DC5B05F006BBD3B /* pancakes.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = pancakes.usdz; sourceTree = "<group>"; };
+		EB8703502DBEE161004A908C /* QuickDish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickDish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB87036B2DBEE3C5004A908C /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		EB87036D2DBEE3E0004A908C /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		EB87036F2DBEF697004A908C /* IngredientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsViewController.swift; sourceTree = "<group>"; };
+		EBB40C942DC8A01E00BC03A2 /* RecipeDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDataProvider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EB8703622DBEE163004A908C /* Exceptions for "QuickDish" folder in "QuickDish" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EB87034F2DBEE161004A908C /* QuickDish */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EB8703522DBEE161004A908C /* QuickDish */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EB8703622DBEE163004A908C /* Exceptions for "QuickDish" folder in "QuickDish" target */,
+			);
+			path = QuickDish;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB87034D2DBEE161004A908C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		208A95182DC5A126006BBD3B /* Asset3D */ = {
+			isa = PBXGroup;
+			children = (
+				208A95192DC5A189006BBD3B /* pizza.usdz */,
+				208A951B2DC5AF0F006BBD3B /* salad.usdz */,
+				208A951D2DC5B004006BBD3B /* grilled_cheese.usdz */,
+				208A951F2DC5B05F006BBD3B /* pancakes.usdz */,
+				201CAD4F2DC9AC9100C37BE1 /* stir_fry.usdz */,
+				201CAD512DC9AD0500C37BE1 /* chicken_tacos.usdz */,
+				201CAD532DC9AD7500C37BE1 /* spaghetti.usdz */,
+				201CAD552DC9AE2700C37BE1 /* tomato_soup.usdz */,
+				201CAD572DC9AE7100C37BE1 /* smoothie.usdz */,
+				201CAD592DC9AEC800C37BE1 /* brownies.usdz */,
+			);
+			path = Asset3D;
+			sourceTree = "<group>";
+		};
+		EB8703472DBEE161004A908C = {
+			isa = PBXGroup;
+			children = (
+				208A95182DC5A126006BBD3B /* Asset3D */,
+				208A94E72DC17DD4006BBD3B /* RecipeModel.xcdatamodeld */,
+				EB87036A2DBEE327004A908C /* Views */,
+				EB8703692DBEE31A004A908C /* Models */,
+				EB8703682DBEE2F6004A908C /* Controllers */,
+				EB8703522DBEE161004A908C /* QuickDish */,
+				EB8703512DBEE161004A908C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB8703512DBEE161004A908C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB8703502DBEE161004A908C /* QuickDish.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB8703682DBEE2F6004A908C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EB87036B2DBEE3C5004A908C /* DiscoverViewController.swift */,
+				EB87036F2DBEF697004A908C /* IngredientsViewController.swift */,
+				208A94EC2DC182A0006BBD3B /* FavoritesViewController.swift */,
+				208A94F22DC1F31A006BBD3B /* Recipe3DViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EB8703692DBEE31A004A908C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB87036D2DBEE3E0004A908C /* RecipeModel.swift */,
+				208A94EA2DC17F79006BBD3B /* CoreDataManager.swift */,
+				EBB40C942DC8A01E00BC03A2 /* RecipeDataProvider.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EB87036A2DBEE327004A908C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				208A94EE2DC18525006BBD3B /* FavoriteTableViewCell.swift */,
+				208A94F02DC1DE1F006BBD3B /* Dish3DView.swift */,
+				208A94F42DC1F338006BBD3B /* RecipeDetailView.swift */,
+				208A94F62DC1F35B006BBD3B /* IngredientsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB87034F2DBEE161004A908C /* QuickDish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8703632DBEE163004A908C /* Build configuration list for PBXNativeTarget "QuickDish" */;
+			buildPhases = (
+				EB87034C2DBEE161004A908C /* Sources */,
+				EB87034D2DBEE161004A908C /* Frameworks */,
+				EB87034E2DBEE161004A908C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EB8703522DBEE161004A908C /* QuickDish */,
+			);
+			name = QuickDish;
+			packageProductDependencies = (
+			);
+			productName = QuickDish;
+			productReference = EB8703502DBEE161004A908C /* QuickDish.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB8703482DBEE161004A908C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					EB87034F2DBEE161004A908C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = EB87034B2DBEE161004A908C /* Build configuration list for PBXProject "QuickDish" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB8703472DBEE161004A908C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EB8703512DBEE161004A908C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB87034F2DBEE161004A908C /* QuickDish */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB87034E2DBEE161004A908C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208A951E2DC5B004006BBD3B /* grilled_cheese.usdz in Resources */,
+				208A951A2DC5A9B7006BBD3B /* pizza.usdz in Resources */,
+				201CAD582DC9AE7100C37BE1 /* smoothie.usdz in Resources */,
+				208A951C2DC5AF0F006BBD3B /* salad.usdz in Resources */,
+				208A95202DC5B05F006BBD3B /* pancakes.usdz in Resources */,
+				201CAD502DC9AC9100C37BE1 /* stir_fry.usdz in Resources */,
+				201CAD5A2DC9AEC800C37BE1 /* brownies.usdz in Resources */,
+				201CAD542DC9AD7500C37BE1 /* spaghetti.usdz in Resources */,
+				201CAD562DC9AE2700C37BE1 /* tomato_soup.usdz in Resources */,
+				201CAD522DC9AD0500C37BE1 /* chicken_tacos.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB87034C2DBEE161004A908C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB87036C2DBEE3C5004A908C /* DiscoverViewController.swift in Sources */,
+				208A94ED2DC182A0006BBD3B /* FavoritesViewController.swift in Sources */,
+				208A94F52DC1F338006BBD3B /* RecipeDetailView.swift in Sources */,
+				208A94F72DC1F35B006BBD3B /* IngredientsView.swift in Sources */,
+				208A94E92DC17DD4006BBD3B /* RecipeModel.xcdatamodeld in Sources */,
+				208A94F32DC1F31A006BBD3B /* Recipe3DViewController.swift in Sources */,
+				EB87036E2DBEE3E0004A908C /* RecipeModel.swift in Sources */,
+				208A94EB2DC17F79006BBD3B /* CoreDataManager.swift in Sources */,
+				EB8703702DBEF697004A908C /* IngredientsViewController.swift in Sources */,
+				EBB40C952DC8A01E00BC03A2 /* RecipeDataProvider.swift in Sources */,
+				208A94EF2DC18525006BBD3B /* FavoriteTableViewCell.swift in Sources */,
+				208A94F12DC1DE1F006BBD3B /* Dish3DView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB8703642DBEE163004A908C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7A89Z3KZX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuickDish/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.indiana.cs.b590-Canary.QuickDish";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB8703652DBEE163004A908C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7A89Z3KZX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuickDish/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.indiana.cs.b590-Canary.QuickDish";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB8703662DBEE163004A908C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB8703672DBEE163004A908C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB87034B2DBEE161004A908C /* Build configuration list for PBXProject "QuickDish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8703662DBEE163004A908C /* Debug */,
+				EB8703672DBEE163004A908C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB8703632DBEE163004A908C /* Build configuration list for PBXNativeTarget "QuickDish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8703642DBEE163004A908C /* Debug */,
+				EB8703652DBEE163004A908C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		208A94E72DC17DD4006BBD3B /* RecipeModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				208A94E82DC17DD4006BBD3B /* RecipeModel.xcdatamodel */,
+			);
+			currentVersion = 208A94E82DC17DD4006BBD3B /* RecipeModel.xcdatamodel */;
+			path = RecipeModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EB8703482DBEE161004A908C /* Project object */;
+}
